@@ -28,5 +28,4 @@ try:
 
 #says if there was an error
 except IOError:
-    print("Error, could not find or open sales_data.txt")
-
+    print("Error, could not find or open sales_data.txt") 
