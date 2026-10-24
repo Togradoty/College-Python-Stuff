@@ -21,8 +21,10 @@ def main():
         print("Average gas prices=", gas_prices)
         print(week_list)
 
+        #error test
         #print(gas_prices[90])
 
+        #makes the graph
         plt.bar(week_list, gas_prices)
         plt.title("Average gas price in 1994")
         plt.xlabel("Week")
