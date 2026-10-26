@@ -6,7 +6,7 @@ def main():
     expenses = []
     #looks through file and assigns numbers to categories
     try:
-        with open("Expenses.txt", "r") as file:
+        file = open("Expenses.txt", "r") as file:
             for line in file:
                 expenses.append(float(line.strip()))
     #deals with and explains certain issues
