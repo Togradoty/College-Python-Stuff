@@ -16,7 +16,7 @@ def main():
 
     correct = 0
     incorrect = 0
-    states = list(capital.keys())
+    states = list(capitals.keys())
 
     #asks for five random questions
     for question in range(5):
